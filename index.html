@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math 10C Formula Sheet</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="roboto-bold-italic">Math 10C Formula Sheet</h1>
+    <hr />
+    <!-- rectangular prism -->
+    <h2 class="roboto-bold-italic">Area and volume of rectangular prism</h2>
+    <p>
+      <img src="images/Rectangular-Prism-1.png" alt="Rectangular-Prism-1" />
+    </p>
+    <p><input id="cube-length" placeholder="length" type="number" /></p>
+    <p><input id="cube-width" placeholder="width" type="number" /></p>
+    <p><input id="cube-height" placeholder="height" type="number" /></p>
+    <p>
+      <button class="kanit-semibold" id="calculate-rectangle">calculate</button>
+    </p>
+    <p class="outputParagraph">
+      area : <span id="output-rectangle-area" class="outputResult"></span>
+    </p>
+    <p class="outputParagraph">
+      volume : <span id="output-rectangle-volume" class="outputResult"></span>
+    </p>
+    <hr />
+    <!-- pyramid -->
+    <h2 class="roboto-bold-italic">Area and volume of pyramid</h2>
+    <p>
+      <img
+        src="images/right-rectangular-pyramid.webp"
+        alt="right-rectangular-pyramid"
+      />
+    </p>
+    <p><input id="pyramid-length" placeholder="length" type="number" /></p>
+    <p><input id="pyramid-width" placeholder="width" type="number" /></p>
+    <p><input id="pyramid-height" placeholder="height" type="number" /></p>
+    <p><input id="pyramid-slant1" placeholder="slant one" type="number" /></p>
+    <p><input id="pyramid-slant2" placeholder="slant two" type="number" /></p>
+    <p>
+      <button class="kanit-semibold" id="calculate-pyramid">calculate</button>
+    </p>
+    <p class="outputParagraph">
+      area : <span id="output-pyramid-area" class="outputResult"></span>
+    </p>
+    <p class="outputParagraph">
+      volume : <span id="output-pyramid-volume" class="outputResult"></span>
+    </p>
+    <hr />
+    <!-- cylinder -->
+    <h2 class="roboto-bold-italic">Area and volume of cylinder</h2>
+    <p>
+      <img src="images/image.png" alt="volume-of-a-cylinder-example_ver_1" />
+    </p>
+    <p><input id="cylinder-radius" placeholder="radius" type="number" /></p>
+    <p><input id="cylinder-height" placeholder="height" type="number" /></p>
+    <p>
+      <button class="kanit-semibold" id="calculate-cylinder">calculate</button>
+    </p>
+    <p class="outputParagraph">
+      area : <span id="output-cylinder-area" class="outputResult"></span>
+    </p>
+    <p class="outputParagraph">
+      volume : <span id="output-cylinder-volume" class="outputResult"></span>
+    </p>
+    <hr />
+    <!-- cone -->
+    <h2 class="roboto-bold-italic">Area and volume of cone</h2>
+    <p><img src="images/circle.png" alt="cone" /></p>
+    <p><input id="cone-radius" placeholder="radius" type="number" /></p>
+    <p><input id="cone-height" placeholder="height" type="number" /></p>
+    <p><input id="cone-slant" placeholder="slant" type="number" /></p>
+    <p><button class="kanit-semibold" id="calculate-cone">calculate</button></p>
+    <p class="outputParagraph">
+      area : <span id="output-cone-area" class="outputResult"></span>
+    </p>
+    <p class="outputParagraph">
+      volume : <span id="output-cone-volume" class="outputResult"></span>
+    </p>
+    <hr />
+    <!-- sphere -->
+    <h2 class="roboto-bold-italic">Area and volume of sphere</h2>
+    <p>
+      <img src="images/e7e87a5fbd5d31ad786ab06b3a1c2c9a.webp" alt="sphere" />
+    </p>
+    <p><input id="sphere-radius" placeholder="radius" type="number" /></p>
+    <p>
+      <button class="kanit-semibold" id="calculate-sphere">calculate</button>
+    </p>
+    <p class="outputParagraph">
+      area : <span id="output-sphere-area" class="outputResult"></span>
+    </p>
+    <p class="outputParagraph">
+      volume : <span id="output-sphere-volume" class="outputResult"></span>
+    </p>
+  </body>
+</html>
